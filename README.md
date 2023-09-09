@@ -1,7 +1,7 @@
 source: [learn_prolog_now.pdf](https://github.com/takumi612/nnlt/files/12565277/learn_prolog_now.pdf)
-### Matching and Proof search
+## Matching and Proof search
 
-#### Matching__ Unification
+### Matching - Unification
 **Matching is one of the fundamental ideas in Prolog**
 Matching trong prolog ta có thể hiểu là khớpm được đ/n như sau:
 1. Nếu term1 và term2 là hằng, thì term1 và term2 khớp khi và chỉ khi chúng cùng kiểu dữ liệu
@@ -116,3 +116,43 @@ jealous(X,Y)
 ```
 ![image](https://github.com/takumi612/nnlt/assets/87805462/1ade7f55-4567-40df-8826-f52b333e882f)
 
+## Tích hợp Prolog với các ngôn ngữ khác:
+
+#### 1. Python:
+   - **PySWIP**: Thư viện này cho phép tích hợp Prolog với Python. PySWIP cung cấp một giao diện để gọi và tương tác với mã Prolog từ Python. Điều này giúp bạn kết hợp sức mạnh của Prolog trong giải quyết các vấn đề logic với khả năng xử lý dữ liệu và giao tiếp của Python.
+
+#### 2. Java:
+   - **JPL (Java Prolog Connector)**: JPL cho phép bạn tích hợp Prolog với Java. Bạn có thể gọi và tương tác với các chương trình Prolog từ Java. Điều này hữu ích khi bạn muốn tích hợp khả năng suy luận logic của Prolog vào ứng dụng Java.
+
+#### 3. C# (.NET Framework):
+   - **C# SWI-Prolog**: Thư viện này cho phép tích hợp Prolog với C# và .NET Framework.
+
+## Các thư viện quan trọng trong Prolog:
+
+##### 1. SWI-Prolog:
+   - SWI-Prolog là một phiên bản phổ biến của Prolog với nhiều tính năng mạnh mẽ. Nó bao gồm các thư viện mở rộng cho đồ họa, xử lý ngôn ngữ tự nhiên và web.
+
+##### 2. CLP (Constraint Logic Programming):
+   - Thư viện CLP cho phép bạn giải quyết các vấn đề hạn chế, bao gồm quy hoạch tài nguyên và lập lịch.
+
+### Các ứng dụng và dự án thực tế sử dụng Prolog:
+
+#### 1. Hệ thống chuyên gia:
+   - Prolog thường được sử dụng để xây dựng hệ thống chuyên gia trong lĩnh vực y học, tư vấn tài chính và quản lý tri thức.
+
+#### 2. Quy hoạch logic (Logic Programming):
+   - Prolog thích hợp cho việc giải quyết các vấn đề quy hoạch, như lập lịch sản xuất, quản lý nguồn tài nguyên và tối ưu hóa.
+
+#### 3. Xử lý ngôn ngữ tự nhiên (NLP):
+   - Prolog có thư viện mạnh mẽ cho xử lý ngôn ngữ tự nhiên, giúp xây dựng các ứng dụng như xử lý văn bản tự nhiên, phân tích ngữ cảnh và dịch máy.
+
+#### 4. Hệ thống hỏi đáp (Question-Answering Systems):
+   - Prolog thường được sử dụng để xây dựng các hệ thống hỏi đáp dựa trên luật.
+
+#### 5. Sự hợp tác tự động (Automated Reasoning):
+   - Prolog cung cấp một cơ sở mạnh mẽ cho việc tìm kiếm và suy luận logic tự động, và được sử dụng trong các hệ thống chứng minh tự động và hệ thống lập lịch.
+
+#### 6. Ứng dụng web và máy học:
+   - Prolog có thể được sử dụng để xây dựng các ứng dụng web dựa trên tri thức và trong lĩnh vực máy học.
+
+Prolog là một ngôn ngữ mạnh mẽ cho giải quyết các vấn đề logic và suy luận, và tích hợp Prolog với các ngôn ngữ khác mở ra nhiều cơ hội cho phát triển các ứng dụ
