@@ -96,6 +96,7 @@ Tiếp tục Prolog sẽ cố gắng thỏa mãn từng điều kiện , duyệt
 
 Phần tử đầu tiên là f (__ G348), lúc này Prolog duyệt trong KB để tìm quy tắc hoặc luật phù hợp, và Prolog sẽ tìm ra 2 kết quả f(a) và f(b).  Prolog matching lần lượt f(__ G348) với f(a), lúc này __ G348 được gán giá trị a, áp dụng với mọi quy tắc khác với đối số __ G348 . Prolog tiếp túc với các quy tắc khác:
     g(a), h(a)
+    
 ![image](https://github.com/takumi612/nnlt/assets/87805462/5e3449b2-5cb6-4394-9983-c3abaf324884)
 
  g(a) tương tự, đến với h(a) trong KB không tồn tại. Prolog biết rằng mình đã sai và quay lui tìm giá trị phù hợp. Quay lui lên g(a) thấy không có giá trị nào khớp nữa, tiếp tục quay lui lên f(__ G348) lúc này nó thấy có thể matching với f(b). Prolog tiếp tục gán giá trị __ G348 với b.
